@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#F44336</color>
+    <color name="primary_color_dark">#D32F2F</color>
+
+    <color name="hotpink">#EC407A</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <!-- Lights oFF lights on-->
+    <color name="lights_off">#9C27B0</color>
+    <color name="lights_on">#FFEB3B</color>
+
+
+    <!--tripleH color sequence-->
+    <color name="tripleHseq1">#4CAF50</color>
+    <color name="tripleHseq2">#FFEB3B</color>
+    <color name="tripleHseq3">#9C27B0</color>
+    <color name="tripleHseq4">#2196F3</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="darkgrey">#616161</color>
+
+
+    <color name="blue">#2196F3</color>
+    <color name="darkblue">#0D47A1</color>
+    <color name="deeppurple900">#311B92</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="amber">#FFC107</color>
+    <color name="darkamber">#FFA000</color>
+    <color name="darkyellow">#F57F17</color>
+
+
+</resources>

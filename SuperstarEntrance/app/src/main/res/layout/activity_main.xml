@@ -1,0 +1,1089 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+
+    <!-- the mother -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/primary_color"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_color"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Superstars"
+                android:textColor="#FFFFFF"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/scroll_view_diva"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/primary_color"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <Button
+                        android:id="@+id/tripleh_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playtripleh"
+                        android:text="Triple H"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/therock_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playtherock"
+                        android:text="The Rock"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/stonecold_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playstonecold"
+                        android:text="Stone Cold"
+                        android:textColor="#FFFFFF" />
+
+
+                    <Button
+
+                        android:id="@+id/vincemcmahon_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playvincemcmahon"
+                        android:text="Vince McMahon"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/randyorton_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playrandyorton"
+                        android:text="Randy Orton"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/undertaker_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playundertaker"
+                        android:text="Undertaker"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12dp" />
+
+
+                    <Button
+
+                        android:id="@+id/sethrollins_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playsethrollins"
+
+                        android:text="Seth Rollins"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/johncena_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playjohncena"
+                        android:text="John Cena"
+                        android:textColor="#FFFFFF" />
+
+
+                    <Button
+
+                        android:id="@+id/romainreigns_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playromanreigns"
+
+                        android:text="Roman Reigns"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/bigshow_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playbigshow"
+
+                        android:text="Big Show"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/deanambrose_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playdeanammbrose"
+
+                        android:text="Dean Ambrose"
+                        android:textColor="#FFFFFF" />
+
+
+
+
+
+                    <Button
+
+                        android:id="@+id/bookert_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playbookert"
+
+                        android:text="Booker T"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/braywyatt_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playbraywyatt"
+
+                        android:text="Bray Wyatt" />
+
+                    <Button
+
+                        android:id="@+id/brocklesnar_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playbrocklesnar"
+
+                        android:text="Brock Lesnar" />
+
+
+                    <Button
+
+                        android:id="@+id/chrisjericho_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playchrisjericho"
+
+                        android:text="Chris Jericho" />
+
+                    <Button
+
+                        android:id="@+id/christian_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playchristian"
+
+                        android:text="Christian" />
+
+                    <Button
+
+                        android:id="@+id/danielbryan_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playdanielbryan"
+
+                        android:text="Daniel Bryan" />
+
+                    <Button
+
+                        android:id="@+id/dolphziggler_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playdolphziggler"
+
+                        android:text="Dolph Ziggler" />
+
+
+
+                    <Button
+
+                        android:id="@+id/fandango_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playfandango"
+
+                        android:text="Fandango" />
+
+                    <Button
+
+                        android:id="@+id/golddust_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playgolddust"
+
+                        android:text="Gold Dust" />
+
+                    <Button
+
+                        android:id="@+id/jackswagger_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playjackswagger"
+
+                        android:text="Jack Swagger" />
+
+                    <Button
+
+                        android:id="@+id/kane_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playkane"
+
+                        android:text="Kane" />
+
+
+                    <Button
+
+                        android:id="@+id/miz_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playmiz"
+
+                        android:text="The Miz" />
+
+                    <Button
+
+                        android:id="@+id/neville_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playneville"
+
+                        android:text="Neville" />
+
+                    <Button
+
+                        android:id="@+id/rtruth_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playrtruth"
+
+                        android:text="R Truth" />
+
+                    <Button
+
+                        android:id="@+id/rusev_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playrusev"
+
+                        android:text="Rusev" />
+
+                    <Button
+
+                        android:id="@+id/ryback_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playryback"
+
+                        android:text="Ryback" />
+
+
+                    <Button
+
+                        android:id="@+id/stardust_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playstardust"
+
+                        android:text="Stardust" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Classics"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+
+                    <Button
+
+                        android:id="@+id/brethart_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playbrethart"
+
+                        android:text="Bret Hart" />
+
+                    <Button
+
+                        android:id="@+id/cactusjack_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playcactusjack"
+
+                        android:text="Cactus Jack" />
+
+                    <Button
+
+                        android:id="@+id/cmpunk_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playcmpunk"
+
+                        android:text="CM Punk" />
+
+                    <Button
+
+                        android:id="@+id/dustyrhodes_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playedusty"
+
+                        android:text="Dusty Rhodes" />
+
+                    <Button
+
+                        android:id="@+id/eddieguerrero_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playeddie"
+
+                        android:text="Eddie Guerrero" />
+
+                    <Button
+
+                        android:id="@+id/edge_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playedge"
+
+                        android:text="Edge"
+                        android:textColor="#FFFFFF" />
+
+
+
+                    <Button
+
+                        android:id="@+id/hacksawjim_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playhacksawjim"
+
+                        android:text="Hacksaw Jim Duggan" />
+                    <Button
+
+                        android:id="@+id/johncenawordlife_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playjohncena2"
+
+                        android:text="John Cena WordLife" />
+
+
+                    <Button
+
+                        android:id="@+id/kevinnash_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playkevinnash"
+
+                        android:text="Kevin Nash" />
+
+                    <Button
+
+                        android:id="@+id/kurtangle_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playkurtangle"
+
+                        android:text="Kurt Angle" />
+
+
+                    <Button
+
+                        android:id="@+id/reymysterio_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playreymysterio"
+
+                        android:text="Rey Mysterio" />
+
+                    <Button
+
+                        android:id="@+id/rickysteamboat_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playrickysteamboat"
+
+                        android:text="Ricky Steamboat" />
+
+                    <Button
+
+                        android:id="@+id/ricflair_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playricflair"
+
+                        android:text="Ric Flair" />
+
+
+
+                    <Button
+
+                        android:id="@+id/robvandam_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playrobvandam"
+
+                        android:text="Rob Van Dam" />
+
+                    <Button
+
+                        android:id="@+id/roddypiper_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playroddypiper"
+
+                        android:text="Roddy Piper" />
+
+                    <Button
+
+                        android:id="@+id/shanemcmahon_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playshanemcmahon"
+
+                        android:text="Shane McMahon" />
+
+                    <Button
+
+                        android:id="@+id/shawnmichaels_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playshawnmichaels"
+
+                        android:text="Shawn Michaels" />
+
+                    <Button
+
+                        android:id="@+id/theultimatewarrior_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playtheutlimatewarrior"
+
+                        android:text="The Ultimate Warrior" />
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/primary_color"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Divas"
+                android:textColor="@color/hotpink"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/scroll_view_superstar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <Button
+
+                        android:id="@+id/nikkibella_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playnikkibella"
+
+                        android:text="Nikki Bella"
+                        android:textColor="@color/hotpink" />
+
+                    <Button
+
+                        android:id="@+id/paige_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playpaige"
+
+                        android:text="Paige"
+                        android:textColor="@color/hotpink" />
+
+
+                    <Button
+                        android:id="@+id/alishiafox_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playalishiafox"
+                        android:text="Alishia Fox"
+                        android:textColor="@color/hotpink" />
+
+
+                    <Button
+
+                        android:id="@+id/evamarie_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playevamarie"
+                        android:text="Eva Marie"
+                        android:textColor="@color/hotpink" />
+
+
+                    <Button
+
+                        android:id="@+id/lita_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playlita"
+                        android:text="Lita"
+                        android:textColor="@color/hotpink" />
+
+                    <Button
+                        android:id="@+id/naomi_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playnaomi"
+
+                        android:text="Naomi"
+                        android:textColor="@color/hotpink" />
+
+                    <Button
+
+                        android:id="@+id/natalya_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playnatalya"
+
+                        android:text="Natalya"
+                        android:textColor="@color/hotpink" />
+                    <Button
+
+                        android:id="@+id/sable_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playsable"
+
+                        android:text="Sable"
+                        android:textColor="@color/hotpink" />
+
+                    <Button
+
+                        android:id="@+id/stacykeibler_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playstacykeibler"
+
+                        android:text="Stacy Keibler"
+                        android:textColor="@color/hotpink" />
+
+                    <Button
+
+                        android:id="@+id/summerrae_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playsummerrae"
+
+                        android:text="Summer Rae"
+                        android:textColor="@color/hotpink" />
+
+
+
+
+
+                    <Button
+
+                        android:id="@+id/trishstratus_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playtrishstratus"
+
+                        android:text="Trish Stratus"
+                        android:textColor="@color/hotpink" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFC107"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Stables"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/scroll_view_stable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <Button
+
+                        android:id="@+id/theauthority_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playtheauthority"
+                        android:text="The Authority"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/thenewday_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playthenewday"
+
+                        android:text="The New Day"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/luchadragons_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playluchadragons"
+
+                        android:text="Lucha Dragons"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/primetimeplayers_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+
+                        android:onClick="playprimetimeplayers"
+
+                        android:text="Primetime Players"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/dx_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playdx"
+                        android:text="Dx"
+                        android:textColor="#4CAF50" />
+
+                    <Button
+                        android:id="@+id/nwo_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playnwo"
+                        android:text="N.W.O."
+                        android:textColor="#FFFFFF" />
+
+
+                    <Button
+
+                        android:id="@+id/evolution_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playevolution"
+                        android:text="Evolution"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/dudleyboyz_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:onClick="playdudleyboyz"
+                        android:text="Dudley Boyz"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+
+                        android:id="@+id/theroadwarriors_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playtheroadwarriors"
+
+                        android:text="The Road Warriors" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Shows"
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Button
+
+                        android:id="@+id/rawacrossthenation_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+
+                        android:onClick="playrawacrossthenation"
+android:textColor="@color/primary_color"
+                        android:text="Raw 2002" />
+                    <Button
+
+                        android:id="@+id/rawtobeloved_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/primary_color"
+                        android:onClick="playrawtobeloved"
+
+                        android:text="Raw 2006" />
+                    <Button
+
+                        android:id="@+id/raw2010_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/primary_color"
+
+                        android:onClick="playraw2010"
+
+                        android:text="Raw 2010" />
+
+
+                    <Button
+
+                        android:id="@+id/smackdown2015_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/blue"
+                        android:textSize="12dp"
+
+                        android:onClick="playsmackdown2015"
+
+                        android:text="Smackdown 2015" />
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:weightSum="12">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/infinateLoop_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Play All" />
+
+
+            <Button
+                android:id="@+id/info_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="INFO" />
+
+            <Button
+                android:id="@+id/lights_button"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="LIGHTS"
+                android:layout_gravity="center"
+
+
+                android:layout_weight="1"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/lightning"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4">
+
+
+            <ImageView
+
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4" />
+        </RelativeLayout>
+
+
+        <ImageButton
+            android:id="@+id/pause_play"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="4"
+            android:onClick="pauseOrPlaySound" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+
+
+        >
+        <!--
+        for the textview above
+        android:layout_above="@+id/adView"
+ -->
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+
+
+        android:id="@+id/bottomlayout">
+        <!--
+        for the textview above
+        android:layout_above="@+id/adView"
+ -->
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-9498771110588993/7058421262"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"></com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+</LinearLayout>
